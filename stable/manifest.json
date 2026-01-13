@@ -1,12 +1,12 @@
 {
   "channel": "stable",
-  "build_id": "20260113-1917-ota1",
-  "created_utc": "2026-01-13T16:17:00Z",
+  "build_id": "20260113-2009-a700f0d",
+  "created_utc": "2026-01-13T17:09:00Z",
   "min_build_id": "",
-  "notes": "staging smoke: real download→deploy→switch→restart",
+  "notes": "stable baseline (no-op if already on this build)",
   "artifact": {
     "kind": "source-tar",
-    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260113-1917-ota1/evse-src-20260113-1917-ota1.tar.gz",
-    "sha256": "c272af42e6d9d563c4e142c4e6dd8ac456e1b7108e5a912b5ae7919bc0cd2215"
+    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260113-2009-a700f0d/evse-src-20260113-2009-a700f0d.tar.gz",
+    "sha256": "0f71209392139a0258e384fb3fe343a84cf378b61036e8dc8fae9485c39fc547"
   }
 }
