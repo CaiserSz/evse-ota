@@ -1,0 +1,12 @@
+{
+  "channel": "canary",
+  "build_id": "",
+  "created_utc": "",
+  "min_build_id": "",
+  "notes": "",
+  "artifact": {
+    "kind": "source-tar",
+    "url": "",
+    "sha256": ""
+  }
+}
