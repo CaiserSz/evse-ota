@@ -1,12 +1,12 @@
 {
   "channel": "stable",
-  "build_id": "20260113-2017-722fd33",
-  "created_utc": "2026-01-13T17:17:00Z",
+  "build_id": "20260115-1614-9121078",
+  "created_utc": "2026-01-15T13:55:03Z",
   "min_build_id": "",
-  "notes": "stable rollout: live manual apply + restart proof",
+  "notes": "stable: ORGE2 production baseline (panel UX + hardening + mTLS)",
   "artifact": {
     "kind": "source-tar",
-    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260113-2017-722fd33/evse-src-20260113-2017-722fd33.tar.gz",
-    "sha256": "abdbd194fab6ccbef65e9cbc57c7bd49be074e365f36f0c83d8706aa40e515b5"
+    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260115-1614-9121078/evse-src-20260115-1614-9121078.tar.gz",
+    "sha256": "b5603572934475d4deb60b3cb186eaf8309e8a5423f232cfbbb5e6c90014d221"
   }
 }

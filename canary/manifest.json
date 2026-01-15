@@ -1,12 +1,12 @@
 {
   "channel": "canary",
-  "build_id": "",
-  "created_utc": "",
+  "build_id": "20260115-1614-9121078",
+  "created_utc": "2026-01-15T13:55:03Z",
   "min_build_id": "",
-  "notes": "",
+  "notes": "canary: latest build for fast feedback",
   "artifact": {
     "kind": "source-tar",
-    "url": "",
-    "sha256": ""
+    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260115-1614-9121078/evse-src-20260115-1614-9121078.tar.gz",
+    "sha256": "b5603572934475d4deb60b3cb186eaf8309e8a5423f232cfbbb5e6c90014d221"
   }
 }
