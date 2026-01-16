@@ -2,7 +2,7 @@
 ORGE EVSE OTA mini-DM: manifests + rollout channels
 
 **Created:** 2026-01-13 16:17  
-**Last Modified:** 2026-01-15 16:30  
+**Last Modified:** 2026-01-16 08:03  
 **Description:** GitHub üzerinden servis edilen OTA manifest’leri (stable/staging/canary) ve bunların işaret ettiği source-tar artefact’leri (GitHub Release asset). Secret-safe.
 
 ---
@@ -89,6 +89,17 @@ gh release create "${BUILD_ID}" "/tmp/evse-src-${BUILD_ID}.tar.gz" --title "EVSE
 `artifact.url` şu formatta olmalı:
 
 `https://github.com/CaiserSz/evse-ota/releases/download/<build_id>/evse-src-<build_id>.tar.gz`
+
+### 3.1) Doğrulama checklist (önerilen)
+
+- `build_id` ↔ GitHub Release tag eşleşiyor mu?
+- `artifact.url` doğru release asset’e gidiyor mu?
+- `sha256` doğrulandı mı?
+  - `curl -L -o /tmp/evse-src-<build_id>.tar.gz <artifact.url>`
+  - `sha256sum /tmp/evse-src-<build_id>.tar.gz` → manifest ile eşleştir
+- Phase‑2 imza politikası:
+  - `ORGE_EVSE_OTA_REQUIRE_SIGNATURE=1` ise `signature` boş olamaz.
+  - İmza doğrulaması istasyon tarafında `orge-evse ota check` ile test edilir.
 
 ### 4) (Opsiyonel) Manifest sign (Phase-2)
 
