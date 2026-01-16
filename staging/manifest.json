@@ -1,13 +1,13 @@
 {
   "artifact": {
     "kind": "source-tar",
-    "sha256": "b5603572934475d4deb60b3cb186eaf8309e8a5423f232cfbbb5e6c90014d221",
-    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260115-1614-9121078/evse-src-20260115-1614-9121078.tar.gz"
+    "sha256": "d55e6b8aafa64bbec735c5bd79082210cb3da4d398d65fac5b184c0c18ee7d95",
+    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260116-1421-c3b33d3/evse-src-20260116-1421-c3b33d3.tar.gz"
   },
-  "build_id": "20260115-1614-9121078",
+  "build_id": "20260116-1421-c3b33d3",
   "channel": "staging",
-  "created_utc": "2026-01-15T13:55:03Z",
+  "created_utc": "2026-01-16T14:22:40Z",
   "min_build_id": "",
-  "notes": "staging: current stable candidate (manual smoke recommended)",
-  "signature": "JcDwpSRSJ10ZH8F8AA+r7g0r/Sb9fJ9iFoOTVhxMraUVWZa/E7PQw4nd7tapeuu1WiCjFV+MVnjXM8Aa86cuCg=="
+  "notes": "staging: OTA signature bypass + cloudflared apply (manual smoke)",
+  "signature": ""
 }
