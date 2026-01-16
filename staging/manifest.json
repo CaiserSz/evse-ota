@@ -1,13 +1,13 @@
 {
   "artifact": {
     "kind": "source-tar",
-    "sha256": "c272af42e6d9d563c4e142c4e6dd8ac456e1b7108e5a912b5ae7919bc0cd2215",
-    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260113-1917-ota1/evse-src-20260113-1917-ota1.tar.gz"
+    "sha256": "b5603572934475d4deb60b3cb186eaf8309e8a5423f232cfbbb5e6c90014d221",
+    "url": "https://github.com/CaiserSz/evse-ota/releases/download/20260115-1614-9121078/evse-src-20260115-1614-9121078.tar.gz"
   },
-  "build_id": "20260113-1917-ota1",
+  "build_id": "20260115-1614-9121078",
   "channel": "staging",
-  "created_utc": "2026-01-13T16:17:00Z",
+  "created_utc": "2026-01-15T13:55:03Z",
   "min_build_id": "",
-  "notes": "staging smoke: real download\u2192deploy\u2192switch\u2192restart",
-  "signature": "WIUlua359O3FOxM5r5xIV5Q83JZjZLr0dtBfo0+Yo+/b2ZVrihtmsp1kMHpJYNk+xQEw8JD0PboYjhqlGpPsDg=="
+  "notes": "staging: current stable candidate (manual smoke recommended)",
+  "signature": "JcDwpSRSJ10ZH8F8AA+r7g0r/Sb9fJ9iFoOTVhxMraUVWZa/E7PQw4nd7tapeuu1WiCjFV+MVnjXM8Aa86cuCg=="
 }
